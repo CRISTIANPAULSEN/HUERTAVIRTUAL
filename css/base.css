@@ -6,18 +6,19 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 }
 
 body {
-	--color-text: #4800d4;
-    --color-bg: #e8e8e8;
-    --color-link: #ec1752;
-    --color-link-hover: #eb1851;
-    --color-info: #272526;
-    --grid-item-bg: #f1f1f1;
-    --color-close: #ec1752;
+	--background-image: url("https://image.freepik.com/free-photo/top-view-soil_23-2148175893.jpg");
+	--color-text: #000000;
+    --color-bg: rgb(34, 134, 42);
+    --color-link: #000000;
+    --color-link-hover: #000000;
+    --color-info: #22862a;
+    --grid-item-bg: #22862a;
+    --color-close: #000000;
 	font-family: Futura, "futura-pt", sans-serif;
 	min-height: 100vh;
 	color: #57585c;
 	color: var(--color-text);
-	background-color: #fff;
+	background-color: #22862a;
 	background-color: var(--color-bg);
 }
 
@@ -132,7 +133,8 @@ main {
 .title__sub {
 	font-weight: normal;
 	margin: 0;
-	font-size: 1rem;
+	font-size: 2rem;
+	text-align: center;
 }
 
 .title__sub {
@@ -388,7 +390,7 @@ main {
 	.title {
 		grid-area: title;
 		display: flex;
-		text-align: left;
+		text-align: center;
 	}
 	.title__sub {
 		position: relative;
