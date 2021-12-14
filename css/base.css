@@ -6,8 +6,10 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 }
 
 body {
+	background-image: url("https://image.freepik.com/free-photo/top-view-soil_23-2148175893.jpg");
+	background-size: 1920 x 1080;
 	--color-text: #ffffff;
-    --color-bg: rgb(0, 0, 0);
+    --color-bg: rgb(34, 134, 42);
     --color-link: #000000;
     --color-link-hover: #000000;
     --color-info: #22862a;
